@@ -1,4 +1,4 @@
-def gitUrl="https://coconet-svn-fs-01.fs.capgemini.com/svn/repos/toolscenter/trunk/"
+def gitUrl="https://github.com/Heartdeath/TSC"
 
 createDockerJob("docker-admin-version", "sudo /usr/bin/docker version", "")
 createDockerJob("docker-admin-list-running-container", "sudo /usr/bin/docker ps", "")
